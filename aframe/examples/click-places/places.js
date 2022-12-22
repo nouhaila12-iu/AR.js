@@ -33,10 +33,10 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: "Your place name",
+            name: "test",
             location: {
-                lat: 0, // add here latitude if using static data
-                lng: 0, // add here longitude if using static data
+                lat: 33.99846661045699, // add here latitude if using static data
+                lng: -6.854385171168765, // add here longitude if using static data
             }
         },
         {
@@ -53,8 +53,8 @@ function staticLoadPlaces() {
 function dynamicLoadPlaces(position) {
     let params = {
         radius: 300,    // search places not farther than this value (in meters)
-        clientId: 'HZIJGI4COHQ4AI45QXKCDFJWFJ1SFHYDFCCWKPIJDWHLVQVZ',   // add your credentials here
-        clientSecret: '',   // add your credentials here
+        clientId: 'DTOPZV4VHZ3UUTUMI3SSY5N1ZOZJOV2Y2ZVQK52Y3XJDDQ5E',   // add your credentials here
+        clientSecret: 'JXSVHDUVH1JJD4ZHBBQMTXMNJEJ2A5UQBXW4ZO0VZYZK0UVS',   // add your credentials here
         version: '20300101',    // foursquare versioning, required but unuseful for this demo
     };
 
